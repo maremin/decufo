@@ -1,0 +1,13 @@
+.add input {
+  border-bottom: none;
+  display: block;
+  margin-bottom: 20px;
+}
+.add form input:first-child{
+    border-bottom: 1px solid var(--secondary);
+}
+.add form input:last-child {
+  background-color: var(--main);
+  color: white;
+  padding: 8px 18px;
+}

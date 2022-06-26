@@ -1,0 +1,97 @@
+.information-container{
+    padding: 40px 0;
+}
+.information-container button{
+    padding: 8px 18px;
+}
+.information{
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.profile img{
+    width: 100px;
+}
+.profile p{
+    font-weight: bold;
+}
+.contacts{
+    text-align: right;
+}
+.menu{
+    border-top: 2px solid var(--secondary);
+    border-bottom: 2px solid var(--secondary);
+}
+.menu ul{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.feedbacks{
+    padding: 40px 0;
+}
+.feedback{
+    padding-bottom: 20px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding-bottom: 10px;
+}
+.user p{
+    font-weight: bold;
+}
+.menu button{
+    background-color: transparent;
+}
+.menu button:hover{
+    border: none;
+}
+.menu-active h2{
+    font-weight: bold;
+}
+.notifications .main-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.note{
+    padding-bottom: 20px;
+    width: 50%;
+}
+.note button{
+    padding: 8px 18px;
+}
+footer{
+    padding-top: 40px;
+    border-top: 2px solid var(--secondary);
+}
+.add input{
+    border-bottom:  none !important; 
+}
+.add{
+    padding: 40px 0;
+}
+.add h2{
+    padding-bottom: 20px;
+}
+.caertificates{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card img{
+    width: 100%;
+}
+header button{
+    padding: 8px 18px;
+}
+.user img{
+    width: 40px;
+}

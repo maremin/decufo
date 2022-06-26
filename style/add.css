@@ -1,0 +1,32 @@
+input{
+    border-bottom: 1px solid var(--secondary);
+}
+textarea{
+    padding: 10px;
+    outline: none;
+}
+.add, .comment{
+    padding: 40px 0;
+    border-bottom: 2px solid var(--secondary);
+}
+h2{
+    padding-bottom: 20px;
+}
+.comment form{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.add .inputs{
+    width: 210px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.add button, .comment button{
+    padding: 8px 18px;
+}
+footer{
+    padding-top: 40px;
+}

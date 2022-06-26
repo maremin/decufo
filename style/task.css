@@ -1,0 +1,35 @@
+
+.task{
+  border: none;
+}
+.task-container {
+  padding: 40px 0;
+  border-bottom: 2px solid var(--secondary);
+}
+.task-container .details li {
+  font-weight: bold;
+}
+.task-container .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.user {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+}
+.user p {
+  padding: 0;
+}
+.task-container button, .answers button {
+  padding: 8px 18px;
+}
+.answers {
+  border-bottom: 2px solid var(--secondary);
+  padding: 40px 0;
+}
+.card {
+  border-bottom: none;
+}

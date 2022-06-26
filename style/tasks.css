@@ -1,0 +1,66 @@
+nav {
+  padding: 20px 0;
+  background-color: var(--other);
+  border-bottom: 2px solid var(--secondary);
+}
+nav .main-container {
+  display: flex;
+  gap: 30px;
+}
+.filters {
+  padding: 10px 0;
+  border-bottom: 2px solid var(--secondary);
+}
+.filters .main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.date {
+  display: flex;
+  gap: 10px;
+}
+.team-content {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.sorting img {
+  padding-right: 10px;
+}
+.task {
+  padding: 40px 0;
+  border-bottom: 2px solid var(--secondary);
+}
+.task h2 {
+  font-weight: 600;
+  padding-bottom: 16px;
+}
+.task p{
+  padding-bottom: 10px;
+}
+.task .details {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.task .details p {
+  padding: 0;
+  font-weight: 700;
+}
+.cost,
+.location {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.cost img,
+.location img {
+  width: 20px;
+}
+.tasks button {
+  padding: 8px 18px;
+}
+footer{
+    padding-top: 40px;
+}

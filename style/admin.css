@@ -1,0 +1,21 @@
+section button:first-child{
+    padding: 8px 18px;
+    margin-bottom: 20px;
+}
+.main-container{
+    padding: 40px 0;
+}
+h2{
+    padding-bottom: 10px;
+}
+.feedback{
+    display: flex;
+    justify-content: space-between;
+}
+.feedback p{
+    padding-bottom: 8px;
+}
+footer{
+    border-top: 2px solid var(--secondary);
+    padding-top: 20px;
+}

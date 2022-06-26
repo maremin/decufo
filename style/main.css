@@ -1,0 +1,92 @@
+.jumbotron {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 40px;
+  margin-bottom: 50px;
+  background-image: url("/img/firstScreenImg.png");
+}
+.jumbotron h1 {
+  color: white;
+}
+.jumbotron img {
+  width: 442px;
+}
+.choices {
+  border-top: 2px solid white;
+  display: flex;
+  margin-top: 40px;
+}
+.choices h1 {
+  width: 50%;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  padding-bottom: 20px;
+}
+.choices h1:first-child {
+  border-right: 2px solid white;
+}
+.statistics {
+  border-bottom: 2px solid var(--secondary);
+  padding-bottom: 50px;
+}
+.columns {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 40px;
+}
+.column {
+  text-align: center;
+}
+.column-text p:last-child {
+  font-weight: 700;
+}
+.column img {
+  padding-bottom: 20px;
+  width: 130px;
+}
+.popular {
+  padding: 40px 0;
+  border-bottom: 2px solid var(--secondary);
+}
+.popular h2 {
+  padding-bottom: 20px;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+.cards img {
+  width: 250px;
+}
+.card {
+  text-align: center;
+}
+.card img {
+  padding-bottom: 20px;
+}
+.card p {
+  font-weight: 600;
+}
+.cta {
+  padding: 40px 0;
+  text-align: center;
+}
+.cta h2{
+    padding-bottom: 40px;
+}
+.cta .buttons {
+    height: 80px;
+  border-top: 2px solid var(--secondary);
+  display: flex;
+}
+.cta .buttons h2 {
+  color: var(--light);
+  padding: 20px 0;
+  width: 50%;
+  background-color: var(--main);
+  border-bottom: 2px solid var(--secondary);
+}
+.cta .buttons h2:first-child {
+  border-right: 2px solid var(--secondary);
+}

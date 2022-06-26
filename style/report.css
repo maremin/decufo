@@ -1,0 +1,17 @@
+.info{
+    border-bottom: 2px solid var(--secondary);
+    padding: 40px 0;
+}
+h2{
+    padding-bottom: 20px;
+}
+.info section{
+    display: flex;
+    gap: 20px;
+}
+.info section p:last-child{
+    font-weight: bold;
+}
+footer{
+    padding-top: 20px;
+}
